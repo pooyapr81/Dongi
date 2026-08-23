@@ -50,7 +50,7 @@ from telegram_commands import setup_commands
 app = (
     Application.builder()
     .token(TOKEN)
-    .proxy(PROXY)
+    #.proxy(PROXY)
     .get_updates_proxy(PROXY)
     .post_init(setup_commands)
     .build()
