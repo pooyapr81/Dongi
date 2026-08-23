@@ -51,7 +51,7 @@ app = (
     Application.builder()
     .token(TOKEN)
     #.proxy(PROXY)
-    .get_updates_proxy(PROXY)
+    #.get_updates_proxy(PROXY)
     .post_init(setup_commands)
     .build()
 )
